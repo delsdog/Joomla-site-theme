@@ -1,0 +1,277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/d.lawrie1/Sites/Joomla/templates/do_template1/html/modules.php",
+			"settings":
+			{
+				"buffer_size": 2548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/d.lawrie1/Sites/Joomla/templates/new_nuca_content/css/template.css",
+			"settings":
+			{
+				"buffer_size": 4108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/d.lawrie1/Sites/Joomla/templates/do_template1/index.php",
+			"settings":
+			{
+				"buffer_size": 5442,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392,
+		"selected_items":
+		[
+		],
+		"width": 392
+	},
+	"console":
+	{
+		"height": 0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/d.lawrie1/Sites/Joomla/templates/new_nuca/css/template.css",
+		"/Users/d.lawrie1/Sites/Joomla/templates/new_nuca/templateDetails.xml",
+		"/Users/d.lawrie1/Sites/Joomla/templates/new_nuca/index.php",
+		"/Users/d.lawrie1/Sites/Joomla/templates/do_template1/index.php",
+		"/Users/d.lawrie1/Sites/Joomla/templates/new_nuca/js/jquery.js",
+		"/Users/d.lawrie1/Sites/Joomla/templates/new_nuca/do_vars.php",
+		"/Users/d.lawrie1/Sites/Joomla/templates/new_nuca/do_templatetools.php",
+		"/Users/d.lawrie1/Sites/Joomla/templates/do_template1/params.ini",
+		"/Users/d.lawrie1/Sites/Joomla/templates/do_template1/templateDetails.xml",
+		"/Users/d.lawrie1/Sites/Joomla/templates/do_template1/css/styles.css",
+		"/Users/d.lawrie1/Desktop/modules.sql",
+		"/Users/d.lawrie1/Desktop/test.log",
+		"/Users/d.lawrie1/Sites/failover/sits_import/user_import.php",
+		"/Users/d.lawrie1/Sites/failover/sits_import/import_config.php",
+		"/Users/d.lawrie1/Sites/failover/sits_import/import_config.2010_11.php",
+		"/Users/d.lawrie1/Sites/failover/sits_import/009_import_config.php",
+		"/Users/d.lawrie1/Desktop/cron.php",
+		"/Users/d.lawrie1/Sites/micro/templates/layout.html",
+		"/Users/d.lawrie1/Sites/micro/templates/blog_home.html",
+		"/Users/d.lawrie1/Sites/micro/index.php",
+		"/Users/d.lawrie1/Sites/micro/templates/blog_detail.html",
+		"/Users/d.lawrie1/Desktop/micro original/code/public/templates/blog_home.html",
+		"/Users/d.lawrie1/Desktop/micro original/code/public/index.php",
+		"/Users/d.lawrie1/Desktop/micro original/code/public/models/Article.php",
+		"/Users/d.lawrie1/Sites/micro/models/Article.php",
+		"/Users/d.lawrie1/Sites/micro/Views/TwigView.php",
+		"/Users/d.lawrie1/Desktop/micro original/code/public/Views/TwigView.php",
+		"/Users/d.lawrie1/Sites/micro/Article.php",
+		"/Users/d.lawrie1/Sites/micro/models/article.php"
+	],
+	"find":
+	{
+		"height": 33
+	},
+	"find_in_files":
+	{
+		"height": 0,
+		"include_history":
+		[
+		],
+		"location_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"course_year_digits",
+			"if(!",
+			"function"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/d.lawrie1/Sites/Joomla/templates/do_template1/html/modules.php",
+					"settings":
+					{
+						"buffer_size": 2548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/d.lawrie1/Sites/Joomla/templates/new_nuca_content/css/template.css",
+					"settings":
+					{
+						"buffer_size": 4108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 2506,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/d.lawrie1/Sites/Joomla/templates/do_template1/index.php",
+					"settings":
+					{
+						"buffer_size": 5442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 712,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0
+	},
+	"input":
+	{
+		"height": 0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0,
+			1
+		],
+		"rows":
+		[
+			0,
+			1
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"select_project":
+	{
+		"height": 500,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/d.lawrie1/Sites/Joomla/templates/new_nuca/nuca.sublime-project"
+			]
+		],
+		"width": 380
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150,
+	"status_bar_visible": true
+}

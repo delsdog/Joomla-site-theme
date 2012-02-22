@@ -1,0 +1,344 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	background-image:url(../images/body_bg);
+	background-repeat:repeat-x;
+	background-color:#fff;
+}
+#container{
+	width:980px;
+	margin:0 auto;
+}
+.clear{
+	clear:both;	
+}
+#header, #main_content, #lower_content, #footer{
+	width:980px;
+	float:left;
+}
+#search{
+	width:140px;
+	margin:10px 10px 0 20px;	
+	background-color:#d3dbe1;	
+	height:55px;
+	padding:10px;
+}
+#search input{
+	border:0;
+	width:138px;
+	height:20px;
+}
+#search select, #courses select, #latest_news select {
+	display: inline-block;
+	font-size: 11px;
+	line-height: 1.35em;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	width: 114px;
+}
+#latest_news select{
+	width:200px
+
+}
+#search .flatart, #courses .flatart{
+	padding:10px 0 0 0;
+}
+#courses select{
+	margin: 10px 0;
+	width: 205px;	
+}
+#search .rss, #courses .flatart, #latest_news .rss{
+	display: inline-block;
+	margin: 0 8px 0 0;
+	position:relative;
+	top:2px;
+}
+#latest_news .rss{
+	vertical-align:top;
+}
+
+/*a.rss{
+	line-height:1.35em;
+	vertical-align: middle;
+}*/
+
+#h_l, #h_r, #h_r img{
+	float:left;
+}
+#h_l{
+	width:190px;	
+}
+#h_r{
+	width:770px;
+	height:350px;	
+}
+#h_r img{
+	
+}
+#main_content{
+	margin:20px;
+	width:940px;	
+}
+#main_content p, #lower_content p{
+	margin:0;	
+}
+#left_c{
+	width:250px;	
+	margin-right:20px;
+	float:left
+}
+#welcome, #latest_news, #twitter{
+	width:250px;	
+	float:left;
+}
+#welcome{
+	height:70px;
+}
+#latest_news{
+	height:80px;
+	/*padding:20px;*/
+	margin:20px 0;
+}
+#twitter{
+	height:80px;
+}
+#video{
+	width:425px;
+	height:270px;
+	float:left;
+}
+#right_c{
+	width:225px;
+	float:left;
+	margin-left:20px;
+}
+#open_days, #courses, #international{
+	width:205px;	
+	float:left;
+	padding:10px;
+}
+#open_days{
+	height:60px;	
+	background-color:#d3dbe1;
+}
+#courses{
+	height:60px;
+	margin:20px 0;
+	background-color:#fff100;
+}
+#international{
+	height:50px;	
+	background-color:#d3dbe1;
+}
+#lower_content{
+	margin:0 20px;	
+	float:left;
+}
+#if_logo{
+	float:left;
+	height:100px;
+	width:100px;
+	margin:0 20px 0 0;
+
+}
+#grey_cont{
+	width:415px;
+	height:60px;
+	padding:20px;
+	background-color:#d3dbe1;	
+	float:left;
+}
+#social, #prospectus, #map{
+	width:125px;	
+	float:left;
+}
+#prospectus{
+	margin:0 20px;	
+}
+#black_cont{
+	width:345px;
+	height:100px;
+	background-color:#28373b;
+	float:left;
+	margin-left:20px;	
+}
+#gallery_links{
+	width:140px;
+	height:60px;
+	margin:20px;
+	float:left;	
+	color:#ffffff;
+}
+#gallery_image{
+	float:left;
+	width:165px;
+	height:100px;	
+}
+#footer{
+	margin-top:20px;		
+}
+#footer p{
+	margin:0;	
+}
+#fl_left{
+	width:390px;
+	height:15px;
+	float:left;	
+	margin:0 10px 0 20px;
+}
+#fl_left ul, #fl_right ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#fl_right ul{
+	text-align:right;	
+}
+#fl_left li, #fl_right li{
+	display:inline;	
+	margin:0 10px 0 0;
+}
+#fl_right li{
+	margin:0 0 0 10px;
+}
+#fl_left li a, #fl_right li a{
+	font-size:0.9em;
+	text-decoration:none;
+	color:#000;
+}
+#fl_right, #copyright{
+	float:right;
+	margin-right:20px;
+	width:540px;
+	height:15px;
+	text-align:right;
+}
+#copyright{
+	margin:5px 20px 20px 0;
+	color:#d3dbe1;	
+}
+.breadcrumbs{
+	display:none;
+}
+
+/* stuarts bit */
+.menutable{
+	width:100%; 
+	border-collapse:collapse;
+}
+.menutable td{
+	width:25%;
+	height:40px; 
+	font-size: 0.8em; 
+	background-color:#d3dbe1; 
+	text-align:center; 
+	border: 14px solid white;
+}
+.menutable td:hover{
+	background-color:#FFFF00;
+}
+table tr:first-child td {
+	border-top: 0;
+}
+table tr:last-child td {
+	border-bottom: 0;
+}
+table tr td:first-child {
+	border-left: 0;
+}
+table tr td:last-child {
+	border-right: 0;
+}
+.menutable a{
+	display: block; 
+	text-align: center; 
+	text-decoration: none;
+}
+
+p#big {
+	line-height: 130%; 
+	font-size: 1.565em; 
+	color: rgb(92, 94, 96);
+}
+
+.floatleft {
+	float: left; 
+	display: inline;
+}
+.floatleft img{
+	display: inline;
+}
+#main_content ul{
+	list-style-type:disc;
+	margin-left:20px;
+}
+.greybox {
+	background-color: #d3dbe1; 
+	margin-bottom: 20px;
+}
+.rhsgreybox {
+	background-color: #d3dbe1; 
+	margin-bottom: 20px;
+	padding: 0.5em; 		
+}
+.greyboxpad {
+	padding: 20px 20px 20px 20px;
+}
+.greybox:hover {
+	background-color: #fff200;
+}
+.greybox a{
+	display: block; 
+	text-decoration:none;
+}
+.pquotebox {
+	background-color:#d3dbe1; 
+	padding: 0.5em; 
+	margin-bottom: 20px;
+}
+.pquoteatt {
+	margin: 0;
+}
+.pquote {
+	font-size: 1.2em; 
+	font-weight:bold; 
+	line-height: 1.2em;
+}
+#main_content ul.pdflink, #main_content ul.pdfgreylink {
+	list-style: none; 
+	margin-left: 0;
+}
+.pdflink li{
+	background:url('http://www.nuca.ac.uk/images/stories/icons/icon-pdf.gif') 0px 3px no-repeat; padding: 5px 0 0 20px; 
+	list-style: none;
+}
+.pdfgreylink li{
+	background:url('http://www.nuca.ac.uk/images/stories/icons/icon-pdf-greybckg.gif') 0px 3px no-repeat; padding: 5px 0 0 20px; 
+	list-style: none;
+}
+div.desc {
+	text-align:center; 
+	line-height:170%; 
+	width:100%; 
+	background-color:#d3dbe1; 
+	font-size:0.9em;
+}
+.runaround {
+	float: left; 
+	margin-right: 10px;
+}
+.greytable {
+	border-collapse: collapse; 
+	width:100%; 
+	background-color: #d3dbe1; 
+}
+.greytable th{
+	font-weight: bold; 
+	text-align: left;
+}
+.greytable td, .greytable th{
+	padding:5px;
+} 
+/* end stuarts bit */

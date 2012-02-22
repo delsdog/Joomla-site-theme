@@ -1,0 +1,56 @@
+/*
+ * Author: Ronan Sprake [ronan.sprake@soak.co.uk]
+ * Agency: Soak Digital Ltd.
+ * Client: NUCA
+ * Project: NUCA Website
+ * Comment: IE7 and below stylesheet
+ */
+
+#content-container
+{
+	margin-bottom: -10px;
+}
+
+#nav ul.expand.last
+{
+	margin-bottom: 5px;
+}
+
+#content .course-pdf li label
+{
+	width: 210px;
+}
+
+cite
+{
+	line-height: 1.2em;
+}
+
+#content,
+#structure,
+.summary-a,
+.summary-b,
+.sidebar-b,
+.summary-d,
+.crumbtrail,
+#nav ul,
+#foot,
+#content .course-pdf ul,
+.page-a .home-gallery li,
+.course-selector,
+#content .sub-article li,
+.socialmedia,
+.services-list ul
+{
+	zoom: 1;
+}
+
+.page-a .home-gallery
+{
+	margin-bottom: 16px;
+}
+
+.services-list ul
+{
+	margin-bottom: 15px;
+}

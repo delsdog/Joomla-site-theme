@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>new_nuca_content</name>
+	<creationDate>02/09/11</creationDate>
+	<author>Derek Lawrie</author>
+	<authorEmail>d.lawrie@nuca.ac.uk</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1</version>
+	<description></description>
+	<files>
+	</files>
+	<positions>
+		<position>new_slideshow</position>
+		<position>new_search</position>
+		<position>new_rss</position>
+		<position>new_navigation</position>
+		<position>new_main_content</position>
+		<position>new_main_extra</position>
+		<position>new_if_logo</position>
+		<position>new_social</position>
+		<position>new_prospectus</position>
+		<position>new_map</position>
+		<position>new_gallery_links</position>
+		<position>new_gallery_image</position>
+		<position>new_fl_left</position>
+		<position>new_fl_right</position>
+		<position>new_copyright</position>
+	</positions>
+</install>

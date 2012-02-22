@@ -1,0 +1,135 @@
+/*
+ * Author: Ronan Sprake [ronan.sprake@soak.co.uk]
+ * Agency: Soak Digital Ltd.
+ * Client: NUCA
+ * Project: NUCA Website
+ * Comment: Print stylesheet
+*/
+
+/*--------------------------------------------------------------------------
+	Font Sizing
+----------------------------------------------------------------------------*/
+
+#structure
+{
+	font-size: 0.75em /* 16 x 0.75=12px */
+}
+
+h1,
+.summary-a h2
+{
+	font-size: 3.08em /* 12 x 3.08=37px */
+}
+
+h1 em
+{
+	font-size: 0.54em /* 37 x 0.65=20px */
+}
+
+h1.fda em
+{
+	font-size: 0.38em /* 37 x 0.38=14px */
+}
+
+h1.fda .sub
+{
+	font-size: 0.27em /* 37 x 0.27=10px */
+}
+
+.page-a #content p
+{
+	font-size: 2.08em /* 12 x 2.08=25px */
+}
+
+blockquote
+{
+	font-size: 1.5em /* 12 x 1.42=17px */
+}
+
+blockquote cite
+{
+	font-size: 0.59em /* 17 x 1.42=10px */
+}
+
+.summary-a p.more
+{
+	font-size: 0.75em /* 16 x 0.75=12px */
+}
+
+.summary-e p
+{
+	font-size: 1.333em /* 12 x 1.333=16px */
+}
+
+.summary-a p
+{
+	font-size: 1.167em /* 12 x 1.167=14px */
+}
+
+#nav,
+.galleries h2,
+.gallery h2,
+#content form p,
+#content form td.nostyle label
+{
+	font-size: 0.917em /* 12 x 0.917=11px */
+}
+
+body
+{
+	font-family: Arial, sans-serif;
+}
+
+h1 em
+{
+	display: block;
+}
+
+em
+{
+	font-style: normal;
+}
+
+p,
+ul
+{
+	margin-bottom: 14px;
+}
+
+.w3c,
+.accessibility,
+.breadcrumbs,
+#foot,
+#nav,
+#sub-content *,
+form,
+.map,
+.map-controls,
+.course-pdf .intro
+{
+	display: none!important;
+}
+
+.course-pdf form,
+#frm-alumni,
+#frm-opendays,
+#frm-prospectus,
+#sub-content .footnote
+{
+	display: block!important;
+}
+
+#frm-alumni label,
+#frm-opendays label,
+#frm-prospectus label
+{
+	float: 	left;
+	width: 	200px;
+}
+
+#frm-alumni input,
+#frm-opendays input,
+#frm-prospectus input
+{
+	clear: 	left;
+}
