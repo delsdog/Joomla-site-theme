@@ -136,7 +136,7 @@ $(function(){
 		speed: 800,
 		timeout: 6000,
 		pause:  1,
-		height: '350px',
+		height: '238px',
 		pager: '#gallery-nav'
 	});
 	

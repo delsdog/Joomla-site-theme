@@ -3,7 +3,7 @@ body{
 	font-size:12px;
 	margin:0;
 	padding:0;
-	background-image:url(../images/body_bg);
+	background-image:url(../images/body_bg_sh.gif);
 	background-repeat:repeat-x;
 	background-color:#fff;
 }
@@ -19,15 +19,15 @@ body{
 	float:left;
 }
 #search{
-	width:140px;
-	margin:10px 10px 0 20px;	
-	background-color:#d3dbe1;	
-	height:55px;
-	padding:10px;
+	/*width:140px;*/
+	margin:0 10px 0 20px;	
+	/*background-color:#d3dbe1;	*/
+	height:24px;
+	padding:10px 0;
 }
 #search input{
 	border:0;
-	width:138px;
+	width:157px;
 	height:20px;
 }
 #search select, #courses select {
@@ -56,7 +56,7 @@ body{
 }
 #h_r{
 	width:770px;
-	height:350px;	
+	/*height:350px;	*/
 }
 #h_r img{
 	
@@ -121,6 +121,9 @@ body{
 	list-style:none;
 	padding:0;
 	margin:0;
+}
+#fl_left ul{
+	display:inline;
 }
 #fl_right ul{
 	text-align:right;	
@@ -190,7 +193,7 @@ ul.course-selector{
 .menutable td{
 	width:25%;
 	height:40px; 
-	font-size: 0.8em; 
+	font-size: 1em; 
 	background-color:#d3dbe1; 
 	text-align:center; 
 	border: 14px solid white;

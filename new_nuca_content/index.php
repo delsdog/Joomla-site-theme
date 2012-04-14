@@ -37,9 +37,9 @@ $this->setHeadData($headData);
     <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/jquery.cookie.js"></script>  
     <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/thickbox.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/main.js?v1"></script>
+    <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/coursemenu.js"></script>
 
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/template.css" type="text/css" />
-
 <jdoc:include type="head" />
 </head>
 <body id="page_bg">
@@ -48,8 +48,8 @@ $this->setHeadData($headData);
 	<div id="header">
     	<div id="h_l">
     		<a href="/" title="home">
-            <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/images/nuca_logo.gif" border="0" alt="" width="190" height="265" /></a>
-            <div id="search" class="flatart">
+            <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/images/nuca_logo_sh.gif" border="0" alt="" /></a>
+            <div id="search">
         		<jdoc:include type="modules" name="new_search" style="xhtml" />
             	<!-- insert rss pages, where are they?-->
             </div>
