@@ -22,23 +22,20 @@ foreach($headData['scripts'] as $key=>$value)
 
 $this->setHeadData($headData);
 
-/* the old doctype stuff
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
-*/
-?>
-<!DOCTYPE html>
-<html>
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link type="text/css" media="all" rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/system/css/reset.css?v6" />
     <link type="text/css" media="screen" rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/system/css/styles.css?v6" />
     <link type="text/css" media="print" rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/system/css/styles-print.css?v6" />
+    <link type="text/css" media="all" rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/system/css/sifr.css?v6" />
     <!--[if lte IE 8]><link rel="stylesheet" href="<?php echo $this->baseurl; ?>templates/system/css/styles-ie7.css?v6" type="text/css" /><![endif]-->
     <!--[if lte IE 6]><link rel="stylesheet" href="<?php echo $this->baseurl; ?>templates/system/css/styles-ie6.css?v6" type="text/css" /><![endif]-->
     <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/jquery.min.js"></script> 
     <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/jquery.cookie.js"></script>  
-    <!--<script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/thickbox.js"></script>-->
+    <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/thickbox.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseurl; ?>/templates/system/js/main.js?v1"></script>
 
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/new_nuca/css/template.css" type="text/css" />
@@ -50,7 +47,7 @@ $this->setHeadData($headData);
 <div id="container">
 	<div id="header">
     	<div id="h_l">
-            <a href="/" title="home" rel="home" id="homelink">
+            <a href="/" title="home">
     		<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/images/nuca_logo.gif" border="0" alt="" width="190" height="265" /></a>
             <div id="search" class="flatart">
         		<jdoc:include type="modules" name="new_search" style="xhtml" />

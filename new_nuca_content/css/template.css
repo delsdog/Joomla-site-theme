@@ -164,10 +164,6 @@ body{
 	float:left;
 	width:575px;
 }
-/*#main_content .componentheading{
-	display:none;
-	visibility: hidden;
-}*/
 ul.course-selector{
 	display:inline;
 	list-style:none;
@@ -221,9 +217,7 @@ table tr td:last-child {
 }
 p#big {
 	line-height: 130%; 
-	/*font-size: 1.565em; as an experiment its dropped to pixels to fix some rendering issues in IE8*/
-	/* if this works then I will have to create a IE8 stylesheet */
-	font-size:19px;
+	font-size: 1.565em; 
 	color: rgb(92, 94, 96);
 }
 

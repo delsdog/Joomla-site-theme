@@ -27,7 +27,6 @@ body{
 	background-color:#d3dbe1;	
 	height:55px;
 	padding:10px;
-	float:left;
 }
 #search input{
 	border:0;
@@ -233,14 +232,6 @@ body{
 	cursor:pointer;
 }
 /* stuarts bit */
-#bigtext {
-/*font-size: 1.15em;*/
-line-height: 1.1em;
-}
-#welcome p{
-	color:#28373B;
-	font-weight:bold;
-}
 .menutable{
 	width:100%; 
 	border-collapse:collapse;
